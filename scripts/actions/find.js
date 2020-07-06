@@ -7,9 +7,11 @@
  * @returns {boolean} does the value exist or not?
  */
 const isItThere = (arrOfStrings, toFind) => {
-  let exists = false;
-  for (let _ of _) {
-
+  let exists = false  ;
+  for (let value of arrOfStrings) {
+    if(value=== toFind){
+      exists = true;
+    }
   }
   return exists;
 };
